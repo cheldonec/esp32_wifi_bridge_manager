@@ -24,6 +24,7 @@
 git clone https://github.com/cheldonec/esp32-wifi-bridge-manager.git
 cd esp32-wifi-bridge-manager
 idf.py build flash monitor
+```
 
 ## 💻 Решение для Windows (ситуация, когда windows отключается от ESP при отсутствии интернета)
 Registry Hive   HKEY_LOCAL_MACHINE
