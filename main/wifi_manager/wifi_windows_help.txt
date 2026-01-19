@@ -1,0 +1,6 @@
+Registry Hive   HKEY_LOCAL_MACHINE
+Registry Path   Software\Policies\Microsoft\Windows\NetworkConnectivityStatusIndicator
+Value Name  NoActiveProbe
+Value Type  REG_DWORD
+Enabled Value   1
+Disabled Value  0
