@@ -21,7 +21,7 @@
 ## 📦 Установка
 
 ```bash
-git clone https://github.com/yourname/esp32-wifi-bridge-manager.git
+git clone https://github.com/cheldonec/esp32-wifi-bridge-manager.git
 cd esp32-wifi-bridge-manager
 idf.py build flash monitor
 
