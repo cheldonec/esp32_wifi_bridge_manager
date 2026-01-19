@@ -27,13 +27,13 @@ idf.py build flash monitor
 ```
 
 ## 💻 Решение для Windows (ситуация, когда windows отключается от ESP при отсутствии интернета)
-WIN + R
-regedit
+- WIN + R
+- regedit
 
-Registry Hive   HKEY_LOCAL_MACHINE
-Registry Path   Software\Policies\Microsoft\Windows\NetworkConnectivityStatusIndicator присвоить 0
-В некоторых случаях необходимо создать ключ
-Value Name  NoActiveProbe
-Value Type  REG_DWORD
-Enabled Value   1
-Disabled Value  0
+- Registry Hive   HKEY_LOCAL_MACHINE
+- Registry Path   Software\Policies\Microsoft\Windows\NetworkConnectivityStatusIndicator присвоить 0
+- В некоторых случаях необходимо создать ключ
+- Value Name  NoActiveProbe
+- Value Type  REG_DWORD
+- Enabled Value   1
+- Disabled Value  0
